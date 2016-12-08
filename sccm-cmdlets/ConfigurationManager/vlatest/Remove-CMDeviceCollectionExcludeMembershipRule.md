@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the device collection.
 
 ```yaml
 Type: String
@@ -126,7 +126,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeCollection
-
+Specifies a device collection object excluded from a membership rule.
+To obtain a collection object, use the [Get-CMCollection](./Get-CMCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -140,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeCollectionId
-
+Specifies the ID of a device collection excluded from a membership rule.
 
 ```yaml
 Type: String
@@ -154,7 +155,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeCollectionName
-
+Specifies the name of a device collection excluded from a membership rule.
 
 ```yaml
 Type: String
@@ -168,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -227,5 +228,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMUserCollectionExcludeMembershipRule](./Get-CMUserCollectionExcludeMembershipRule.md)
 
 [Add-CMUserCollectionExcludeMembershipRule](./Add-CMUserCollectionExcludeMembershipRule.md)
-
-

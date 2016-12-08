@@ -243,5 +243,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDeviceCollectionExcludeMembershipRule](./Remove-CMDeviceCollectionExcludeMembershipRule.md)
 
 [Remove-CMDeviceCollectionQueryMembershipRule](./Remove-CMDeviceCollectionQueryMembershipRule.md)
-
-

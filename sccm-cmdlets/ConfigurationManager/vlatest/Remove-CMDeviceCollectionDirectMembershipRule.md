@@ -162,7 +162,7 @@ Accept wildcard characters: False
 
 ### -Resource
 Specifies a resource object.
-To obtain a resource object, use the **Get-CMResource** cmdlet.
+To obtain a resource object, use the [Get-CMResource](./Get-CMResource.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -242,5 +242,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMDeviceCollectionIncludeMembershipRule](./Remove-CMDeviceCollectionIncludeMembershipRule.md)
 
 [Remove-CMDeviceCollectionQueryMembershipRule](./Remove-CMDeviceCollectionQueryMembershipRule.md)
-
-

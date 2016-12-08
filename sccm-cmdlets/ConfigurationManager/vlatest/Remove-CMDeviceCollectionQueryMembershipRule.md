@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the device collection query membership that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -RuleName
-
+Specifies the name of the device collection query membership rule that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -165,5 +165,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-CMDeviceCollectionQueryMembershipRule](./Add-CMDeviceCollectionQueryMembershipRule.md)
 
 [Get-CMDeviceCollection](./Get-CMDeviceCollection.md)
-
-

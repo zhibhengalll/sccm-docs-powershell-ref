@@ -207,5 +207,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMConfigurationItem](./Set-CMConfigurationItem.md)
 
 [Get-CMConfigurationItemHistory](./Get-CMConfigurationItemHistory.md)
-
-

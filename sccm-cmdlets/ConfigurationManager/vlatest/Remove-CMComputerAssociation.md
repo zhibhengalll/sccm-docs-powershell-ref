@@ -208,5 +208,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMComputerAssociation](./New-CMComputerAssociation.md)
 
 [Set-CMComputerAssociation](./Set-CMComputerAssociation.md)
-
-

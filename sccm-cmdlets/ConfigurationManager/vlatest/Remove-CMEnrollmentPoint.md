@@ -98,7 +98,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies the input to this cmdlet.
-You can use the Get-CMEnrollmentPoint cmdlet to get an input object.
+You can use the [Get-CMEnrollmentPoint](./Get-CMEnrollmentPoint.md) cmdlet to get an input object.
 
 ```yaml
 Type: IResultObject
@@ -170,5 +170,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMEnrollmentPoint](./Get-CMEnrollmentPoint.md)
 
 [Set-CMEnrollmentPoint](./Set-CMEnrollmentPoint.md)
-
-

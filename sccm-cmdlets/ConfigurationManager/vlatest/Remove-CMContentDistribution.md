@@ -355,7 +355,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisableContentDependencyDetection
-
+Indicates that the cmdlet disables content dependency detection.
 
 ```yaml
 Type: SwitchParameter
@@ -698,5 +698,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Invoke-CMContentValidation](./Invoke-CMContentValidation.md)
 
 [Start-CMContentDistribution](./Start-CMContentDistribution.md)
-
-

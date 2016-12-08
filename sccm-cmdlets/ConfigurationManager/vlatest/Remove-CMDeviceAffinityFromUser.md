@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -193,5 +193,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMUserDeviceAffinityRequest](./Get-CMUserDeviceAffinityRequest.md)
 
 [Import-CMUserDeviceAffinity](./Import-CMUserDeviceAffinity.md)
-
-
