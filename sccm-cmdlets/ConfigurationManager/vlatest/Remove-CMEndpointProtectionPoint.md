@@ -107,7 +107,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies the input to this cmdlet.
-To obtain an input object, use the Get-CMEndpointProtectionPoint cmdlet.
+To obtain an input object, use the [Get-CMEndpointProtectionPoint](./Get-CMEndpointProtectionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -181,5 +181,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMEndpointProtectionPoint](./Get-CMEndpointProtectionPoint.md)
 
 [Set-CMEndpointProtectionPoint](./Set-CMEndpointProtectionPoint.md)
-
-
