@@ -137,7 +137,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a cloud distribution point object.
-To obtain a cloud distribution point object, you can use the Get-CMCloudDistributionPoint cmdlet.
+To obtain a cloud distribution point object, you can use the [Get-CMCloudDistributionPoint](./Get-CMCloudDistributionPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
