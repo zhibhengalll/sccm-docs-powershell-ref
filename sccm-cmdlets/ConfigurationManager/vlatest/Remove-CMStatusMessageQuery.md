@@ -129,7 +129,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a status message query object.
-To obtain a status message query object, use the Get-CMStatusMessageQuery cmdlet.
+To obtain a status message query object, use the [Get-CMStatusMessageQuery](./Get-CMStatusMessageQuery.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -187,5 +187,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMStatusMessageQuery](./New-CMStatusMessageQuery.md)
 
 [Set-CMStatusMessageQuery](./Set-CMStatusMessageQuery.md)
-
-
