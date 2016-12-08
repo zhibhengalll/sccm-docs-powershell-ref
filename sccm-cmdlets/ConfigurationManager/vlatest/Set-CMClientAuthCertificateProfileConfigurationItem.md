@@ -57,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Description
-
+Specifies a description for the certificate profile that this cmdlet modifies.
 
 ```yaml
 Type: String
@@ -156,7 +156,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a certificate profile object.
-To obtain a certificate profile object, use the Get-CMClientAuthCertificateProfileConfigurationItem cmdlet.
+To obtain a certificate profile object, use the [Get-CMClientAuthCertificateProfileConfigurationItem](./Get-CMClientAuthCertificateProfileConfigurationItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -184,6 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewName
+Specifies the new name of the certificate profile.
 
 
 ```yaml

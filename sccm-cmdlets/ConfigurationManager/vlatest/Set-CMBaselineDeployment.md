@@ -43,9 +43,9 @@ Baselines contain a defined set of required configurations and associated rules.
 System Center Configuration Manager assigns baselines to computer in collections, together with a compliance evaluation schedule.
 
 Use the baseline and the name of a collection to specify a deployment to modify.
-You can specify a baseline by its name or ID, or use the **Get-CMBaseline** cmdlet to get a baseline object.
+You can specify a baseline by its name or ID, or use the [Get-CMBaseline](./Get-CMBaseline.md) cmdlet to get a baseline object.
 
-You can use the **Start-CMBaselineDeployment** cmdlet to begin a deployment.
+You can use the [Start-CMBaselineDeployment](./Start-CMBaselineDeployment.md) cmdlet to begin a deployment.
 
 ## EXAMPLES
 
@@ -243,7 +243,7 @@ Accept wildcard characters: False
 
 ### -PostponeDate
 Specifies a date, as a **DateTime** object.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 For more information, type `Get-Help Get-Date`.
 This is the date for the deployment if it is postponed.
 

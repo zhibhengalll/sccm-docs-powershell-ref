@@ -115,7 +115,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an input object to this cmdlet.
-You can get the input object by using the Get-CMBoundary cmdlet.
+You can get the input object by using the [Get-CMBoundary](./Get-CMBoundary.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -173,7 +173,12 @@ Accept wildcard characters: False
 
 ### -Type
 Specifies a boundary type.
-Valid values are: ADSite, IPV6Prefix, IPSubnet, and IPRange.
+Valid values are: 
+  
+- ADSite
+- IPV6Prefix
+- IPSubnet
+- IPRange
 
 ```yaml
 Type: BoundaryTypes
@@ -233,5 +238,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMBoundary](./New-CMBoundary.md)
 
 [Remove-CMBoundary](./Remove-CMBoundary.md)
-
-
