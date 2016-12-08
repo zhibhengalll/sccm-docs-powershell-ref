@@ -164,7 +164,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a deployment object.
-To obtain a deployment object, use the Get-CMDeployment cmdlet.
+To obtain a deployment object, use the [Get-CMDeployment](./Get-CMDeployment.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -208,5 +208,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDeploymentType](./Get-CMDeploymentType.md)
 
 [Remove-CMDeploymentType](./Remove-CMDeploymentType.md)
-
-

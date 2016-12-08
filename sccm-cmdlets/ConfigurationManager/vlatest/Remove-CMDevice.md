@@ -184,5 +184,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDevice](./Get-CMDevice.md)
 
 [Unblock-CMDevice](./Unblock-CMDevice.md)
-
-

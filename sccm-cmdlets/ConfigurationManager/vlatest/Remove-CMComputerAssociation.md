@@ -136,7 +136,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a computer association object.
-To obtain a computer association object, use the Get-CMComputerAssociation cmdlet.
+To obtain a computer association object, use the [Get-CMComputerAssociation](./Get-CMComputerAssociation.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -208,5 +208,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMComputerAssociation](./New-CMComputerAssociation.md)
 
 [Set-CMComputerAssociation](./Set-CMComputerAssociation.md)
-
-

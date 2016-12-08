@@ -181,5 +181,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Copy-CMConfigurationPolicy](./Copy-CMConfigurationPolicy.md)
 
 [Get-CMConfigurationPolicy](./Get-CMConfigurationPolicy.md)
-
-
