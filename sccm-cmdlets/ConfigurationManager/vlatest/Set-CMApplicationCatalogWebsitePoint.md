@@ -58,7 +58,7 @@ PS C:\> $Acwp= Get-CMApplicationCatalogWebsitePoint -SiteSystemServerName "CMDIV
 PS C:\> Set-CMApplicationCatalogWebsitePoint -InputObject $Acwp -NetbiosName "CMDIV-WEST02" -OrganizationName "MarketingWest" -ColorR 160 -ColorG 200 -ColorB 50
 ```
 
-The first command uses the Get-CMApplicationCatalogWebsitePoint cmdlet to get the Application Catalog website point that is associated with the site system server named CMDIV-WEST04.CORP.CONTOSO.COM that is hosted on the Configuration Manager site that has the site code CM4.
+The first command uses the [Get-CMApplicationCatalogWebsitePoint](./Get-CMApplicationCatalogWebsitePoint.md) cmdlet to get the Application Catalog website point that is associated with the site system server named CMDIV-WEST04.CORP.CONTOSO.COM that is hosted on the Configuration Manager site that has the site code CM4.
 The command stores the result in the $Acwp variable.
 
 The second command changes the settings of the Application Catalog website point stored in $Acwp.
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 Specifies the client connection type.
 The acceptable values for this parameter are:
 
--  Internet
+- Internet
 - InternetAndIntranet
 - Intranet
 
@@ -102,7 +102,8 @@ Accept wildcard characters: False
 ```
 
 ### -Color
-
+Specifies the color of the catalog website.
+Configuration Manager uses custom colors to conform to customer branding.
 
 ```yaml
 Type: Color
@@ -219,7 +220,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an Application Catalog website point object.
-To obtain Application Catalog website point object, use the Get-CMApplicationCatalogWebsitePoint cmdlet.
+To obtain Application Catalog website point object, use the [Get-CMApplicationCatalogWebsitePoint](./Get-CMApplicationCatalogWebsitePoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject

@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -Collection
-
+Specifies a Configuration Manager application deployment collection object.
 
 ```yaml
 Type: IResultObject
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionId
-
+Specifies the ID of a application deployment collection.
 
 ```yaml
 Type: String
@@ -232,7 +232,7 @@ Accept wildcard characters: False
 
 ### -DeadlineDate
 Specifies a date as a **DateTime** object.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 This is the deadline for deployment of the application.
 If the application has not deployed to a client by this date, Configuration Manager forces deployment.
 If you specify a value for the *DeadlineTime* parameter in addition to this parameter, the cmdlet uses that value.
@@ -324,7 +324,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -388,7 +389,7 @@ Accept wildcard characters: False
 
 ### -PostponeDate
 Specifies a date as a **DateTime** object.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 Configuration Manager generates a deployment alert after this length of time.
 If you specify a value for the *PostponeTime* parameter in addition to this parameter, the cmdlet uses that value.
 
@@ -405,7 +406,7 @@ Accept wildcard characters: False
 
 ### -PostponeTime
 Specifies a time as a **DateTime** object.
-To obtain a **DateTime** object, use the Get-Date cmdlet.
+To obtain a **DateTime** object, use the **Get-Date** cmdlet.
 Configuration Manager generates a deployment alert after this length of time.
 
 ```yaml

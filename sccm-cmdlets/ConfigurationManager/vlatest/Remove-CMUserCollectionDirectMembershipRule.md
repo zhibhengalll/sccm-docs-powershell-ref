@@ -98,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the direct membership rule that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -126,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -140,7 +140,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -232,5 +233,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMUserCollectionIncludeMembershipRule](./Remove-CMUserCollectionIncludeMembershipRule.md)
 
 [Remove-CMUserCollectionQueryMembershipRule](./Remove-CMUserCollectionQueryMembershipRule.md)
-
-

@@ -27,7 +27,7 @@ Remove-CMSystemHealthValidatorPoint [-SiteCode <String>] [-Force] [-SiteSystemSe
 ## DESCRIPTION
 The **Remove-CMSystemHealthValidatorPoint** cmdlet removes a system health validator point from a Microsoft System Center Configuration Manager site.
 This site system role validates statements of health from a server that is running Network Policy Server (NPS).
-You can specify a validator point by site system name or site code or both or you can use the Get-CMSystemHealthValidatorPoint cmdlet.
+You can specify a validator point by site system name or site code or both or you can use the [Get-CMSystemHealthValidatorPoint](./Get-CMSystemHealthValidatorPoint.md) cmdlet.
 
 Before you remove a system health validator point, make sure that there is another system health validator point for the site, or that the server that is running NPS has policies that grant network access and do not reference the System Center Configuration Manager.
 
@@ -181,5 +181,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-CMSystemHealthValidatorPoint](./Add-CMSystemHealthValidatorPoint.md)
 
 [Get-CMSystemHealthValidatorPoint](./Get-CMSystemHealthValidatorPoint.md)
-
-

@@ -106,7 +106,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an object that contains an application revision history.
-To get this object, use the Get-CMApplicationRevisionHistory cmdlet.
+To get this object, use the [Get-CMApplicationRevisionHistory](./Get-CMApplicationRevisionHistory.md) cmdlet.
 
 ```yaml
 Type: IResultObject

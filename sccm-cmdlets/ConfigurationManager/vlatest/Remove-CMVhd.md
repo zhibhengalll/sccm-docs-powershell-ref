@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a VHD image object.
-To obtain a VHD image object, use the Get-CMVhd cmdlet.
+To obtain a VHD image object, use the [Get-CMVhd](./Get-CMVhd.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -176,5 +176,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMVhd](./New-CMVhd.md)
 
 [Set-CMVhd](./Set-CMVhd.md)
-
-

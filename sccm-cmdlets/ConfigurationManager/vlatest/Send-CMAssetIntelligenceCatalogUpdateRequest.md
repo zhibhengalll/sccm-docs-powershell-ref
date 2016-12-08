@@ -28,7 +28,7 @@ Send-CMAssetIntelligenceCatalogUpdateRequest -Id <String> [-DisableWildcardHandl
 The **Send-CMAssetIntelligenceCatalogUpdateRequest** cmdlet requests an update of the Asset Intelligence catalog for software title categorization from System Center Online.
 You can request an update for catalog items or software categories in the Asset Intelligence catalog.
 
-You can also use the Sync-CMAssetIntelligenceCatalog cmdlet to synchronize the local Asset Intelligence catalog with System Center Online to get the latest software title categorization.
+You can also use the [Sync-CMAssetIntelligenceCatalog](./Sync-CMAssetIntelligenceCatalog.md) cmdlet to synchronize the local Asset Intelligence catalog with System Center Online to get the latest software title categorization.
 
 ## EXAMPLES
 
@@ -140,5 +140,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMAssetIntelligenceCatalogItem](./Get-CMAssetIntelligenceCatalogItem.md)
 
 [Sync-CMAssetIntelligenceCatalog](./Sync-CMAssetIntelligenceCatalog.md)
-
-

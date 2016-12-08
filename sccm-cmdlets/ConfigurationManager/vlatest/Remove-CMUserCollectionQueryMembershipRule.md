@@ -62,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the collection for the query membership rule that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -104,7 +104,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -118,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -RuleName
-
+Specifies the name of the query membership rule that this cmdlet sets.
 
 ```yaml
 Type: String
@@ -162,5 +163,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMUserCollection](./Get-CMUserCollection.md)
 
 [Get-CMUserCollectionQueryMembershipRule](./Get-CMUserCollectionQueryMembershipRule.md)
-
-

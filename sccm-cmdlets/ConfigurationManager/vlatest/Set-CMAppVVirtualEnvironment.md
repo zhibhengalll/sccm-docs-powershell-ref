@@ -135,7 +135,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a virtual environment object for Configuration Manager.
-To obtain a virtual environment object, use the Get-CMAppVVirtualEnvironment cmdlet.
+To obtain a virtual environment object, use the [Get-CMAppVVirtualEnvironment](./Get-CMAppVVirtualEnvironment.md) cmdlet.
 
 ```yaml
 Type: IResultObject
