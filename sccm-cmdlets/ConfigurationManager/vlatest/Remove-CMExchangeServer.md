@@ -70,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExchangeServerUrl
-
+Specifies the link, as a URL, to the Exchange Server.
 
 ```yaml
 Type: String
@@ -173,5 +173,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMExchangeServer](./Set-CMExchangeServer.md)
 
 [Sync-CMExchangeServer](./Sync-CMExchangeServer.md)
-
-

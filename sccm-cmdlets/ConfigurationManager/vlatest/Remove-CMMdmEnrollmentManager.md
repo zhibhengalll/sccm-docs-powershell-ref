@@ -124,7 +124,7 @@ Accept wildcard characters: False
 ### -InputObject
 Specifies an array of user objects or Device Enrollment Manager objects.
 To obtain a user object, use the [Get-CMUser](./Get-CMUser.md) cmdlet.
-To obtain a Device Enrollment Manager user object, use the Get-CMMdmEnrollmentManager cmdlet.
+To obtain a Device Enrollment Manager user object, use the [Get-CMMdmEnrollmentManager](./Get-CMMdmEnrollmentManager.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -182,5 +182,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMMdmEnrollmentManager](./Get-CMMdmEnrollmentManager.md)
 
 [Get-CMUser](./Get-CMUser.md)
-
-

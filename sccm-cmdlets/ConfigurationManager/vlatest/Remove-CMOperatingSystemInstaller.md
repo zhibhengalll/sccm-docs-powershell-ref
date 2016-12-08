@@ -177,5 +177,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMOperatingSystemInstaller](./New-CMOperatingSystemInstaller.md)
 
 [Set-CMOperatingSystemInstaller](./Set-CMOperatingSystemInstaller.md)
-
-

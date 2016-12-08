@@ -105,7 +105,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a multicast service point object.
-To obtain a multicast service point object, use the Get-CMMulticastServicePoint cmdlet.
+To obtain a multicast service point object, use the [Get-CMMulticastServicePoint](./Get-CMMulticastServicePoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -193,5 +193,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMMulticastServicePoint](./Get-CMMulticastServicePoint.md)
 
 [Set-CMMulticastServicePoint](./Set-CMMulticastServicePoint.md)
-
-

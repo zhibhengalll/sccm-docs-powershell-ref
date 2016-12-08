@@ -126,7 +126,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a secondary site object.
-To obtain this object, use the New-CMSecondarySite cmdlet.
+To obtain this object, use the [New-CMSecondarySite](./New-CMSecondarySite.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -196,5 +196,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Invoke-CMSecondarySiteUpgrade](./Invoke-CMSecondarySiteUpgrade.md)
 
 [New-CMSecondarySite](./New-CMSecondarySite.md)
-
-

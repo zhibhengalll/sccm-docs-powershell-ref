@@ -36,7 +36,7 @@ The **Remove-CMGlobalCondition** cmdlet removes a global condition object.
 Microsoft System Center Configuration Manager uses global conditions to represent business or technical conditions.
 Global conditions specify how to provide and deploy applications to client devices.
 
-You can specify a global condition by name or ID or use the **Get-CMGlobalCondition** cmdlet to obtain a global condition object.
+You can specify a global condition by name or ID or use the [Get-CMGlobalCondition](./Get-CMGlobalCondition.md) cmdlet to obtain a global condition object.
 You cannot remove read-only global conditions.
 
 ## EXAMPLES
@@ -198,5 +198,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMGlobalCondition](./New-CMGlobalCondition.md)
 
 [Set-CMGlobalCondition](./Set-CMGlobalCondition.md)
-
-
