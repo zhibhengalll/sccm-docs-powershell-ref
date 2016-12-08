@@ -412,7 +412,7 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-
+Specifies the path to the boot image.
 
 ```yaml
 Type: String
@@ -483,7 +483,8 @@ Accept wildcard characters: False
 ```
 
 ### -Priority
-
+Specifies a change for the priority of the deployment type.
+Valid values are: Increase and Decrease.
 
 ```yaml
 Type: Priority
