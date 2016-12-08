@@ -141,7 +141,12 @@ You must confirm the action before the command performs it.
 
 ### -Access
 Specifies the access rights that are associated with an access account.
-Valid values are: No Access, Read, Change, and Full Control.
+Valid values are: 
+
+- No Access
+- Read
+- Change
+- Full Control
 
 ```yaml
 Type: AccessRight
@@ -157,7 +162,12 @@ Accept wildcard characters: False
 
 ### -AccountType
 Specifies an account type.
-Valid values are: Guest, User, WindowsGroup, and WindowsUser.
+Valid values are: 
+  
+- Guest
+- User
+- WindowsGroup
+- WindowsUser
 
 ```yaml
 Type: AccessAccountType
@@ -298,7 +308,8 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-
+Specifies the input to this cmdlet. 
+You can use this parameter, or you can pipe the input to this cmdlet. 
 
 ```yaml
 Type: IResultObject
@@ -497,5 +508,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMPackage](./Get-CMPackage.md)
 
 [Get-CMSoftwareUpdateDeploymentPackage](./Get-CMSoftwareUpdateDeploymentPackage.md)
-
-

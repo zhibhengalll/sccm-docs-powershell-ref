@@ -126,7 +126,7 @@ Accept wildcard characters: False
 ```
 
 ### -SiteCode
-
+Specifies the site code of the database replication diagnostic.
 
 ```yaml
 Type: String
@@ -168,5 +168,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMDatabaseReplicationLinkProperty](./Get-CMDatabaseReplicationLinkProperty.md)
 
 [Get-CMDataBaseReplicationStatus](./Get-CMDataBaseReplicationStatus.md)
-
-

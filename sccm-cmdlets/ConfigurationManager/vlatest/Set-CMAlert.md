@@ -58,7 +58,7 @@ The second command changes the *Comments* property of the alert stored in the $A
 ## PARAMETERS
 
 ### -Comment
-
+Specifies a comment that is associated with the alert this cmdlet sets.
 
 ```yaml
 Type: String
@@ -241,5 +241,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Suspend-CMAlert](./Suspend-CMAlert.md)
 
 [Disable-CMAlert](./Disable-CMAlert.md)
-
-

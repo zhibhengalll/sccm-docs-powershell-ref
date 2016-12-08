@@ -31,7 +31,7 @@ Resume-CMApplication [-Id] <Int32> [-DisableWildcardHandling] [-ForceWildcardHan
 ```
 
 ## DESCRIPTION
-The **Resume-CMApplication** cmdlet resumes an application that was suspended using the Suspend-CMApplication cmdlet.
+The **Resume-CMApplication** cmdlet resumes an application that was suspended using the [Suspend-CMApplication](./Suspend-CMApplication.md) cmdlet.
 After a suspended application has been resumed, clients can again download the application.
 
 ## EXAMPLES
@@ -182,5 +182,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Set-CMApplication](./Set-CMApplication.md)
 
 [Suspend-CMApplication](./Suspend-CMApplication.md)
-
-

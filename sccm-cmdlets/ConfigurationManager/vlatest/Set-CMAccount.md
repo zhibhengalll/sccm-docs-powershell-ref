@@ -90,7 +90,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a user account object.
-You can get a user account object by using the Get-CMAccount cmdlet.
+You can get a user account object by using the [Get-CMAccount](./Get-CMAccount.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-
+Specifies the name of the user for the user account.
 
 ```yaml
 Type: String
@@ -176,5 +176,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAccount](./New-CMAccount.md)
 
 [Remove-CMAccount](./Remove-CMAccount.md)
-
-
