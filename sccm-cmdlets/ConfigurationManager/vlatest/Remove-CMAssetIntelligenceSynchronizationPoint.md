@@ -108,7 +108,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an Asset Intelligence synchronization point object.
-To get a **CMAssetIntelligenceSynchronizationPoint** object, use the Get-CMAssetIntelligenceSynchronizationPoint cmdlet.
+To get a **CMAssetIntelligenceSynchronizationPoint** object, use the [Get-CMAssetIntelligenceSynchronizationPoint](./Get-CMAssetIntelligenceSynchronizationPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
