@@ -195,5 +195,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMBaselineXMLDefinition](./Get-CMBaselineXMLDefinition.md)
 
 [Get-CMBaselineSummarizationSchedule](./Get-CMBaselineSummarizationSchedule.md)
-
-

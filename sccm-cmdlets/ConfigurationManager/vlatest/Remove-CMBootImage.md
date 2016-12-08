@@ -189,5 +189,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMBootImage](./New-CMBootImage.md)
 
 [Set-CMBootImage](./Set-CMBootImage.md)
-
-

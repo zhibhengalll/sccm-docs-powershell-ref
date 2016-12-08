@@ -132,7 +132,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an input object to this cmdlet.
-You can get the input object by using the Get-CMBoundary cmdlet.
+You can get the input object by using the [Get-CMBoundary](./Get-CMBoundary.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -194,5 +194,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMBoundaryFromGroup](./Remove-CMBoundaryFromGroup.md)
 
 [Remove-CMBoundaryGroup](./Remove-CMBoundaryGroup.md)
-
-

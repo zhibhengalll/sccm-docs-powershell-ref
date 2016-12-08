@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an input object for this cmdlet.
-You can get an input object by using Get-CMClientSetting.
+You can get an input object by using [Get-CMClientSetting](./Get-CMClientSetting.md).
 
 ```yaml
 Type: IResultObject
@@ -178,5 +178,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMClientSetting](./New-CMClientSetting.md)
 
 [Set-CMClientSetting](./Set-CMClientSetting.md)
-
-

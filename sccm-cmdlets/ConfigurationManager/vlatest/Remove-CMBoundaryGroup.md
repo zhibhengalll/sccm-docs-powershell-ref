@@ -49,7 +49,7 @@ PS C:\> $BoundaryObj = Get-CMBoundary -Name "BGroup01", "BGroup02", "BGroup03"
 PS C:\> Remove-CMBoundary -InputObject $BoundaryObj
 ```
 
-The first command uses the **Get-CMBoundaryGroup** to get multiple boundary groups that are specified by their names, and stores this data into the $BoundaryObj variable.
+The first command uses the [Get-CMBoundaryGroup](./Get-CMBoundaryGroup.md) to get multiple boundary groups that are specified by their names, and stores this data into the $BoundaryObj variable.
 
 The second command identifies and removes the boundaries that are specified by using the input object $BoundaryObj.
 Because the *Force* parameter is not specified, you must confirm the action before it is performed.
@@ -186,5 +186,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMBoundaryGroup](./New-CMBoundaryGroup.md)
 
 [Set-CMBoundaryGroup](./Set-CMBoundaryGroup.md)
-
-

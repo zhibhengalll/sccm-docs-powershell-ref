@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -BoundaryGroupInputObject
-
+Specifies an boundary group input object for this cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -151,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -BoundaryInputObject
-
+Specifies an boundary input object for this cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -275,5 +275,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-CMBoundaryGroup](./Remove-CMBoundaryGroup.md)
 
 [Set-CMBoundaryGroup](./Set-CMBoundaryGroup.md)
-
-
