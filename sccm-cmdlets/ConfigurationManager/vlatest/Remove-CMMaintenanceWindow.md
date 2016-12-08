@@ -47,7 +47,7 @@ The window is part of the collection AAA0004D.
 ## PARAMETERS
 
 ### -Collection
-
+Specifies a Configuration Manager maintenance window object.
 
 ```yaml
 Type: IResultObject
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -CollectionName
-
+Specifies the name of the Configuration Manager maintenance window.
 
 ```yaml
 Type: String
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaintenanceWindowName
-
+Specifies the name of the Maintenance Window.
 
 ```yaml
 Type: String
@@ -189,5 +189,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMMaintenanceWindow](./New-CMMaintenanceWindow.md)
 
 [Set-CMMaintenanceWindow](./Set-CMMaintenanceWindow.md)
-
-

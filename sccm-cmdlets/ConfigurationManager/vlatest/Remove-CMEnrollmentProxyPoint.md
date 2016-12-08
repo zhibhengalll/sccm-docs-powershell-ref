@@ -98,7 +98,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies the input to this cmdlet.
-You can get an input object by using the Get-CMEnrollmentProxyPoint cmdlet.
+You can get an input object by using the [Get-CMEnrollmentProxyPoint](./Get-CMEnrollmentProxyPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -168,5 +168,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-CMEnrollmentProxyPoint](./Add-CMEnrollmentProxyPoint.md)
 
 [Get-CMEnrollmentProxyPoint](./Get-CMEnrollmentProxyPoint.md)
-
-

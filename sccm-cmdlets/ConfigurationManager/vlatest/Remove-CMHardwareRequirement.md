@@ -31,7 +31,7 @@ System Center Configuration Manager manages Asset Intelligence information, incl
 You can add, modify, or delete your own hardware requirements, but you cannot change built-in hardware requirement objects.
 
 You can use this cmdlet to remove hardware requirement objects.
-You can specify a product by name or obtain a requirement by using the **Get-CMHardwareRequirement** cmdlet.
+You can specify a product by name or obtain a requirement by using the [Get-CMHardwareRequirement](./Get-CMHardwareRequirement.md) cmdlet.
 
 ## EXAMPLES
 
@@ -163,5 +163,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMHardwareRequirement](./New-CMHardwareRequirement.md)
 
 [Set-CMHardwareRequirement](./Set-CMHardwareRequirement.md)
-
-

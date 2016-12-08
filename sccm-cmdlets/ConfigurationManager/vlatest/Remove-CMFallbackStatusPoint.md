@@ -26,7 +26,7 @@ Remove-CMFallbackStatusPoint [-SiteCode <String>] [-Force] [-SiteSystemServerNam
 
 ## DESCRIPTION
 The **Remove-CMFallbackStatusPoint** cmdlet removes a specified fallback status point site system role.
-You can specify the site system name and site code for a fallback status point or use the **Get-CMFallbackStatusPoint** cmdlet to obtain a fallback status point object.
+You can specify the site system name and site code for a fallback status point or use the [Get-CMFallbackStatusPoint](./Get-CMFallbackStatusPoint.md) cmdlet to obtain a fallback status point object.
 
 Microsoft System Center Configuration Manager can use one or more fallback status points to collect state messages for a site and send them on to Configuration Manager.
 After you remove a fallback status point, that system no longer forwards state messages.
@@ -113,7 +113,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a fallback status point role.
-To get a fallback status point role, use the Get-CMFallbackStatusPoint cmdlet.
+To get a fallback status point role, use the [Get-CMFallbackStatusPoint](./Get-CMFallbackStatusPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -185,5 +185,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMFallbackStatusPoint](./Get-CMFallbackStatusPoint.md)
 
 [Set-CMFallbackStatusPoint](./Set-CMFallbackStatusPoint.md)
-
-
