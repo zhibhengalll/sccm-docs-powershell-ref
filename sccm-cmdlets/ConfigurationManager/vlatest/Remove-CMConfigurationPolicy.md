@@ -125,7 +125,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a configuration policy object.
-To obtain a configuration policy object, use the Get-CMConfigurationPolicy cmdlet.
+To obtain a configuration policy object, use the [Get-CMConfigurationPolicy](./Get-CMConfigurationPolicy.md) cmdlet.
 
 ```yaml
 Type: IResultObject

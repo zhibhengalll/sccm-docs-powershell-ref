@@ -89,7 +89,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a conditional access policy object.
-To obtain a conditional access policy object, use the Get-CMConditionalAccessPolicy cmdlet.
+To obtain a conditional access policy object, use the [Get-CMConditionalAccessPolicy](./Get-CMConditionalAccessPolicy.md) cmdlet.
 
 ```yaml
 Type: IResultObject
