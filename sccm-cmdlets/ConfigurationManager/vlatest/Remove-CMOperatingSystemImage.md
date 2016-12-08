@@ -179,5 +179,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMOperatingSystemImageUpdateSchedule](./Get-CMOperatingSystemImageUpdateSchedule.md)
 
 [Get-CMOperatingSystemImage](./Get-CMOperatingSystemImage.md)
-
-

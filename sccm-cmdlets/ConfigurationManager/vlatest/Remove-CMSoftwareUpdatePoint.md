@@ -32,7 +32,7 @@ System Center Configuration Manager clients connect to a software update point t
 The software update point interacts with Windows Server Update Services (WSUS) to configure update settings, request synchronization to the update source, and to synchronize software updates from the WSUS database.
 
 You can specify a software update point to remove by site code and the name of the computer that hosts the site system role.
-You can also use the Get-CMSoftwareUpdatePoint cmdlet to obtain a software update point.
+You can also use the [Get-CMSoftwareUpdatePoint](./Get-CMSoftwareUpdatePoint.md) cmdlet to obtain a software update point.
 
 ## EXAMPLES
 
@@ -188,5 +188,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdatePoint](./Get-CMSoftwareUpdatePoint.md)
 
 [Set-CMSoftwareUpdatePoint](./Set-CMSoftwareUpdatePoint.md)
-
-

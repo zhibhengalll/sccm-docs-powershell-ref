@@ -47,7 +47,7 @@ PS C:\> $CMSMP = Get-CMStateMigrationPoint -SiteCode "CM1" -SiteSystemServerName
 PS C:\> Remove-CMStateMigrationPoint -InputObject $CMSMP
 ```
 
-The first command uses the Get-CMStateMigrationPoint to get a state migration point that belongs to the specified site and has the specified host name, and then stores that object in the $CMSMP variable.
+The first command uses the [Get-CMStateMigrationPoint](./Get-CMStateMigrationPoint.md) to get a state migration point that belongs to the specified site and has the specified host name, and then stores that object in the $CMSMP variable.
 
 The second command removes the state migration point stored in the $CMSMP variable.
 
@@ -111,7 +111,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a state migration point object.
-To obtain a state migration point object, use the Get-CMStateMigrationPoint cmdlet.
+To obtain a state migration point object, use the [Get-CMStateMigrationPoint](./Get-CMStateMigrationPoint.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -181,5 +181,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Add-CMStateMigrationPoint](./Add-CMStateMigrationPoint.md)
 
 [Get-CMStateMigrationPoint](./Get-CMStateMigrationPoint.md)
-
-

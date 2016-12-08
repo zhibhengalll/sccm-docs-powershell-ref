@@ -114,7 +114,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMProgram** object.
-To obtain a **CMProgram** object, use the Get-CMProgram cmdlet.
+To obtain a **CMProgram** object, use the [Get-CMProgram](./Get-CMProgram.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -190,5 +190,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMProgram](./New-CMProgram.md)
 
 [Set-CMProgram](./Set-CMProgram.md)
-
-

@@ -37,9 +37,9 @@ Specify the name or ID of a security role you want to remove or use the [Get-CMS
 Configuration Manager uses security roles, along with security scopes and collections, to define an administrative scope for each administrative user.
 Configuration Manager provides several built-in security roles.
 To create a custom security role, copy an existing security role, and then modifying the copy.
-You can copy a security role by using the Copy-CMSecurityRole cmdlet.
+You can copy a security role by using the [Copy-CMSecurityRole](./Copy-CMSecurityRole.md) cmdlet.
 
-You can use the Remove-CMSecurityRole cmdlet to remove old, unneeded custom security roles.
+You can use the **Remove-CMSecurityRole** cmdlet to remove old, unneeded custom security roles.
 You cannot remove built-in security roles.
 Every administrative user must have at least one security role.
 Before you remove a security role, make sure every user has a role in addition to the one you remove.
@@ -201,5 +201,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Import-CMSecurityRole](./Import-CMSecurityRole.md)
 
 [Set-CMSecurityRole](./Set-CMSecurityRole.md)
-
-

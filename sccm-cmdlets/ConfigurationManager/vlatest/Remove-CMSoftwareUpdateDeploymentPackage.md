@@ -118,7 +118,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies a **CMSoftwareUpdateDeploymentPackage** object.
-To obtain an **CMSoftwareUpdateDeploymentPackage** object, use the Get-CMSoftwareUpdateDeploymentPackage cmdlet.
+To obtain an **CMSoftwareUpdateDeploymentPackage** object, use the [Get-CMSoftwareUpdateDeploymentPackage](./Get-CMSoftwareUpdateDeploymentPackage.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -174,5 +174,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-CMSoftwareUpdateDeploymentPackage](./Get-CMSoftwareUpdateDeploymentPackage.md)
 
 [Set-CMSoftwareUpdateDeploymentPackage](./Set-CMSoftwareUpdateDeploymentPackage.md)
-
-
