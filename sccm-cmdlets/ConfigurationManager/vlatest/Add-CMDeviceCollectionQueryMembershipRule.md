@@ -53,7 +53,7 @@ The *QueryExpression* parameter specifies the query that defines the membership 
 
 ### -Collection
 Specifies a Configuration Manager device collection object.
-To obtain a device collection object, use the **Get-CMDeviceCollection** cmdlet.
+To obtain a device collection object, use the [Get-CMDeviceCollection](./Get-CMDeviceCollection.md) cmdlet.
 
 ```yaml
 Type: IResultObject

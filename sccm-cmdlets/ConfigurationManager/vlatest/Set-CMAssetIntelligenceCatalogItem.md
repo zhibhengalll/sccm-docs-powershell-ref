@@ -153,7 +153,7 @@ Accept wildcard characters: False
 
 ### -InputObject
 Specifies an Asset Intelligence catalog item.
-To get an Asset Intelligence catalog item, use the Get-CMAssetIntelligenceCatalogItem cmdlet.
+To get an Asset Intelligence catalog item, use the [Get-CMAssetIntelligenceCatalogItem](./Get-CMAssetIntelligenceCatalogItem.md) cmdlet.
 
 ```yaml
 Type: IResultObject
@@ -226,5 +226,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-CMAssetIntelligenceCatalogItem](./New-CMAssetIntelligenceCatalogItem.md)
 
 [Remove-CMAssetIntelligenceCatalogItem](./Remove-CMAssetIntelligenceCatalogItem.md)
-
-

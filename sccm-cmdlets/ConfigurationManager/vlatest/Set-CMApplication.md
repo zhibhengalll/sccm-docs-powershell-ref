@@ -296,7 +296,7 @@ Accept wildcard characters: False
 ### -Keyword
 Specifies a keyword for the application.
 Provide the keyword in the default language.
-To add multiple keywords, use CultureInfo.CurrentCulture.TextInfo.ListSeparator as the delimiter.
+To add multiple keywords, use **CultureInfo.CurrentCulture.TextInfo.ListSeparator** as the delimiter.
 
 This keyword will help users of Software Center search for the application.
 
@@ -600,5 +600,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Resume-CMApplication](./Resume-CMApplication.md)
 
 [Suspend-CMApplication](./Suspend-CMApplication.md)
-
-
