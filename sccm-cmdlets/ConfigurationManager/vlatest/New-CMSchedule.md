@@ -138,7 +138,7 @@ The **New-CMSchedule** cmdlet creates a schedule token.
 In Microsoft System Center Configuration Manager, you use schedule tokens to configure scheduling information.
 You can create schedule tokens to schedule events with differing frequencies such as daily, weekly, and monthly.
 
-Use the Convert-CMSchedule cmdlet to decode and encode schedule tokens into and from an interval string.
+Use the [Convert-CMSchedule](./Convert-CMSchedule.md) cmdlet to decode and encode schedule tokens into and from an interval string.
 You can then use the interval strings to set schedule properties when you define or modify System Center Configuration Manager objects.
 
 ## EXAMPLES
@@ -393,16 +393,11 @@ Accept wildcard characters: False
 Specifies the week of the month when the event occurs.
 The acceptable values for this parameter are:
 
-- 0.
-Last (default) 
-- 1.
-First
-- 2.
-Second
-- 3.
-Third
-- 4.
-Fourth
+- Number 0. Last (default) 
+- Number 1. First
+- Number 2. Second
+- Number 3. Third
+- Number 4. Fourth
 
 ```yaml
 Type: ScheduleWeekOrder

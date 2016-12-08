@@ -40,7 +40,7 @@ New-CMUserDataAndProfileConfigurationItem -Name <String> [-Description <String>]
 ## DESCRIPTION
 The **New-CMUserDataAndProfileConfigurationItem** cmdlet creates a user data and profile configuration item that can apply to Windows 8 computers.
 A configuration item can manage folder redirection, offline folders, and roaming user profiles.
-You can modify settings for an existing configuration item by using the Set-CMUserDataAndProfileConfigurationItem cmdlet.
+You can modify settings for an existing configuration item by using the [Set-CMUserDataAndProfileConfigurationItem](./Set-CMUserDataAndProfileConfigurationItem.md) cmdlet.
 
 ## EXAMPLES
 

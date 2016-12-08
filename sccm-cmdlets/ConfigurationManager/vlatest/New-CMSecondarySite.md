@@ -393,7 +393,7 @@ Accept wildcard characters: False
 
 ### -InstallationSourceFile
 Specifies an array of installation source file objects for Configuration Manager.
-To obtain an installation source file object, use the New-CMInstallationSourceFile cmdlet.
+To obtain an installation source file object, use the [New-CMInstallationSourceFile](./New-CMInstallationSourceFile.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
@@ -555,7 +555,7 @@ Accept wildcard characters: False
 
 ### -SqlServerSetting
 Specifies an array of SQL Server settings object in Configuration Manager.
-To obtain a SQL Server settings object, use the New-CMSqlServerSetting cmdlet.
+To obtain a SQL Server settings object, use the [New-CMSqlServerSetting](./New-CMSqlServerSetting.md) cmdlet.
 
 ```yaml
 Type: IResultObject[]
