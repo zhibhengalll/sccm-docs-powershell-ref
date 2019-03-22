@@ -1,0 +1,10 @@
+ID: 4aa94e66-f518-77c4-3a18-8f827b436fdf4aa94e66-f518-77c4-3a18-8f827b436fdf
+ID Versi Independen: 3c0043ce-0bc1-41c7-f5d8-2e50362bb189 / "BOOL AddSecureMemoryCacheCallback(
+
+  PSECURE_MEMORY_CACHE_CALLBACK pfnCallBack
+
+); -HLOCAL LocalFree(
+
+  _Frees_ptr_opt_ HLOCAL hMem
+
+); 
